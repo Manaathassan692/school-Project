@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body>
+    <div class="flex justify-between  	" >
+        <div class="w-32 h-3 pl-10 pt-5">
+        <img src="images-removebg-preview.png" alt="">
+    </div>
+    <div>
+        <ul class="flex gap-10 pt-9 ">
+            <li class="text-2xl ">Home</li>
+            <li class="text-2xl  text-blue-900  hover:text-orange-400   ">Courses </li>
+            <li class="text-2xl  text-blue-900 hover:text-orange-400">Blog</li>
+            <li class="text-2xl text-blue-900 hover:text-orange-400 text-orange-400 font-bold">Contact</li>
+
+        </ul>
+    </div>
+    <div class="px-32  pt-9">
+        <button class=" border-[1px] w-[125px] h-[34px] border-black text-1xl rounded-lg bg-orange-400 hover:bg-blue-900 hover:text-white">Sign In</button>
+        <button  class=" border-[1px] w-[125px] h-[34px] border-black text-1xl rounded-lg hover:bg-blue-900 hover:text-white ">Register</button>
+    </div>
+    </div>
+    
+
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+
+    <div class="container mx-auto px-4 py-12">
+        <h1 class="text-3xl font-bold text-center mb-8">Contact Us</h1>
+
+        <div class="flex flex-col md:flex-row md:space-x-8 pl-40">
+            <!-- Contact Form -->
+            <div class="bg-white shadow-lg rounded-lg p-6 md:w-2/3">
+                <h2 class="text-xl font-semibold mb-4">Get in Touch</h2>
+                <form action="#" method="POST">
+                    <div class="mb-4">
+                        <label for="name" class="block text-sm font-medium text-gray-700">Name</label>
+                        <input type="text" id="name" name="name" required class="mt-1 block w-full border-gray-300 rounded-md shadow-sm focus:border-blue-500 focus:ring focus:ring-blue-200" />
+                    </div>
+
+                    <div class="mb-4">
+                        <label for="email" class="block text-sm font-medium text-gray-700">Email</label>
+                        <input type="email" id="email" name="email" required class="mt-1 block w-full border-gray-300 rounded-md shadow-sm focus:border-blue-500 focus:ring focus:ring-blue-200" />
+                    </div>
+
+                    <div class="mb-4">
+                        <label for="message" class="block text-sm font-medium text-gray-700">Message</label>
+                        <textarea id="message" name="message" rows="4" required class="mt-1 block w-full border-gray-300 rounded-md shadow-sm focus:border-blue-500 focus:ring focus:ring-blue-200"></textarea>
+                    </div>
+
+                    <button type="submit" class="w-full bg-blue-600 text-white py-2 rounded-md hover:bg-blue-700">Send Message</button>
+                </form>
+            </div>
+        </div>
+
+        <!-- Map Section -->
+        <div class="mt-12">
+            <h2 class="text-xl font-semibold mb-4">Our Location</h2>
+            <iframe class="w-full h-64 rounded-lg shadow-lg" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d329032.5132346209!2d45.3239621!3d2.0469341!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3d5f7a6c7e4b1b91%3A0x3b1a5f4a55739c34!2sMogadishu%2C%20Somalia!5e0!3m2!1sen!2sus!4v1617204721547!5m2!1sen!2sus" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </div>
+
+    <!-- Font Awesome for social media icons -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+    <div class="bg-gray-800 text-white py-8 mt-14">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row justify-between space-y-4 md:space-y-0 md:space-x-12">
+                <div class="mb-4 md:mb-0">
+                    <h5 class="text-lg font-bold mb-2">Links</h5>
+                    <ul>
+                        <li><a href="#" class="hover:underline">Home</a></li>
+                        <li><a href="#" class="hover:underline">About Us</a></li>
+                        <li><a href="#" class="hover:underline">Services</a></li>
+                        <li><a href="#" class="hover:underline">Contact</a></li>
+                    </ul>
+                </div>
+    
+                <div class="mb-4 md:mb-0">
+                    <h5 class="text-lg font-bold mb-2">Quick Links</h5>
+                    <ul>
+                        <li><a href="#" class="hover:underline">Privacy Policy</a></li>
+                        <li><a href="#" class="hover:underline">Terms of Service</a></li>
+                        <li><a href="#" class="hover:underline">FAQ</a></li>
+                        <li><a href="#" class="hover:underline">Support</a></li>
+                    </ul>
+                </div>
+    
+                <div>
+                    <h5 class="text-lg font-bold mb-2">Contact Us</h5>
+                    <p>123 Main St, Anytown, USA</p>
+                    <p>Email: <a href="mailto:info@example.com" class="hover:underline">info@example.com</a></p>
+                    <p>Phone: (123) 456-7890</p>
+    
+                    <!-- Search Input -->
+                    <div class="mt-4 flex">
+                        <input type="text" placeholder="Search..." class="p-2 rounded-l-md border border-gray-300 focus:outline-none focus:ring focus:ring-blue-500" />
+                        <button class="bg-blue-600 text-white p-2 rounded-r-md hover:bg-blue-700">Search</button>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="mt-8 flex justify-center space-x-4">
+                <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+    
+            <div class="mt-6 text-center text-gray-400 text-sm">
+                <p>&copy; 2024 Your Company. All rights reserved.</p>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Font Awesome for social media icons -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    
+</body>
+</html>
+    
+</body>
+</html>
